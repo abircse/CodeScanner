@@ -21,6 +21,11 @@ public class MainActivity extends AppCompatActivity {
     private Button reScan;
     private TextView codeResult;
 
+    /*
+    *
+    * Remember: camera permission needed to scan code.. here i didnot write code for camera permission
+    * */
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
